@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script type="module" src = "src/navigation.js"></script>
+    <script type = "module" src = "src/df-footer.js"></script>
+    <script type = "module" src = "src/df-header.js"></script>
+    <title>Home</title>
+</head>
+<body class="has-background-black">
+    <nav class = "navbar has-shadow is-white">
+        <div class = "navbar-brand">
+            <a class="navbar-item" href="home.html">
+                <i class="fab fa-studiovinari"></i>
+            </a>
+            <a class = "navbar-burger" id = "burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class = "navbar-menu" id="nav-links">
+            <div class="navbar-start">
+                <span class="navbar-item has-text-weight-bold">
+                    Home
+                </span>
+                <a class="navbar-item is-hoverable" href="app.html">
+                    App
+                </a>
+                <a class="navbar-item is-hoverable" href="documentation.html">
+                    Documentation
+                </a>
+          </div>
+        </div>
+    </nav>
+    <h1 class="is-size-4 has-text-centered">
+        <df-header></df-header>...
+    </h1>
+    <!-- about the project -->
+    <div class = "container">
+        <h2 class="is-size-2 is-offset-8">
+            About Hord Blaster
+        </h2>
+        <p class="is-offset-8">
+            &emsp;&emsp;Hord blaster is a top down arena shooter that utilizes experience gained from 2 years of education at <abbr title="Rochester Institute of Technology">RIT</abbr>.  The general features of the project uses Bulma CSS styling.  The central feature is the application that uses canvas and my own hand drawn images to let the player battle the coming hordes.  This project has taken place over the course of roughly one month.
+        </p>
+    </div><br><br>
+    <!-- how to play Instructions -->
+    <div class="container">
+        <h3 class="is-size-3 is-offset-8">
+            How to play
+        </h3>
+        <div class="columns">
+            <div class="column">
+                <p>
+                    1) You are always facing the direction of the mouse.
+                </p>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <p>
+                    2) The arrow keys or WASD keys are used for movement.<br>
+                    &emsp;&emsp;W - Forward, move toward the mouse position.<br>
+                    &emsp;&emsp;A - Left, strafe left from you current position around mouse.<br>
+                    &emsp;&emsp;S - Back, move away from the mouse position.<br>
+                    &emsp;&emsp;D - Right, strafe right from your current position around the mouse.
+                </p>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <p>
+                    3) Click - Left click, right click, middle click, panic click... it doesn't matter just click a mouse button to fire your currently equipped weapon.
+                </p>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <p>
+                    4) Pause - P, press the p key to pause the game at any time.
+                </p>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <p>
+                    5) Weapon Upgrade - From the pause menu select your weapon of choice and spend your kill count to increase their damage.
+                </p>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <p>
+                    6) Switch weapon - You have 3 weapons: the Pistol, the Rifle, and the Shotgun.  From the pause menu simply click the equip button under the weapon of your choice.
+                </p>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <p>
+                    7) Player Management - From the pause menu you can also manage your players speed health and armor by spending your kill count.<br>
+                    &emsp;&emsp;Speed - Increase you movement speed.<br>
+                    &emsp;&emsp;Health - Refill your health.<br>
+                    &emsp;&emsp;Armor - Increase your damage resistance.
+                </p>
+            </div>
+        </div>
+    </div><br><br>
+    <!-- lore of the game -->
+    <div class="columns is-centered">
+        <div class="column">  
+          <div class="has-background-black is-large is-info p-2">
+            <div class="hero-head container is-fluid columns is-multiline">
+              <div class="column is-half">  
+                <div class = "container">
+                    <h3 class="is-size-3 is-offset-8 has-text-centered">
+                        Lore
+                    </h3>
+                    <p class="is-offset-8">
+                        &emsp;&emsp;Lock and load the hordes are coming and the fans are cheering.  At the end of the 6th world war the last 3 empires of the world turned to biological warfare to try to end the 60 year war.  Unfortunately in this case life finds a way and the way it found was to be a brutally efficient infection vector.  The infection drives people mad with rage and hunger.  As hours turn to days and weeks what little of them that still exists is consumed and they grow more and more inhuman only to hate those that are uninfected since they remind them of the humanity that they have lost.  The infection spread through the armies of the 3 empires ending the 60 year war without a victor  The collapse of all forms of formal government resulted in humanity breaking apart into savage tribes and large family units with the technology and collective knowledge of 1000s of years of innovation.<br>
+                        &emsp;&emsp;The patriarch of the Sinclair family had an idea to bring peace to his territory.  A quote from long ago, Rome is a mob.  Conjure magic for them and they will be distracted.  He would build a colosseum where the masses would pay to watch shows, attractions, and combat.  With this new source of funds and the leaders of other families and tribes under his roof he would forge a new empire, his empire.  This is where you come in.  You are a veteran of the 60 year war.  From the time that you were old enough to hold a gun you trained and practiced so that you could join your brothers and sisters on the battlefield.  After the end of the war you found yourself wandering for a purpose during a time of peace that you never thought you would see.  The time has come for you to stop wandering and settle down in one place.  The memory of your fellow warriors being consumed or infected by hordes of the afflicted still burns in your mind.  You heard of a place that will pay you to battle the afflicted.  You are ready for revenge against the afflicted, you are ready for a stable life, and you are ready to wield the weapons that have been in your hands since the day you were born.  Donning the armor of the blood knights you load your rifle and pass through the double doors of destiny.
+                    </p>
+                </div>
+                <div class="column is-half">
+                </div>
+              </div>
+              <img id="primary-image" class="p-3" style="float:right;width:50%" src="./images/ui/pauseMainp2.png" alt="A-Bomb">
+            </div>
+          </div>
+        </div>
+      </div>
+    <df-footer></df-footer>
+</body>
+</html>
